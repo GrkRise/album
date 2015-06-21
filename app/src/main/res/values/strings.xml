@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Album2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    //add folder dialog strings
+    <string name="name">Name:</string>
+    <string name="add_dialog_title">Add folder</string>
+    <string name="add_dialog_pos">Add</string>
+    <string name="add_dialog_neg">Cancel</string>
+    //long ckick folder dialog
+    <string name="long_click_folder">change folder</string>
+    <string name="rename_folder">rename</string>
+    <string name="delete_folder">delete</string>
+
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+
+    <string name="empty_field_name">this field is empty!</string>
+    <string name="folder_exist">this folder is exists!</string>
+
+    <string name="no_folders">contains no folders</string>
+    <string name="no_photos">contains no photos</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_full_screen_photo">FullScreenPhotoActivity</string>
+</resources>
