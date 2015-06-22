@@ -3,7 +3,7 @@
     android:layout_height="match_parent"
     tools:context="ru.fegol.album2.ui.fragments.FullScreenPhotoFragment">
 
-    <it.sephiroth.android.library.imagezoom.ImageViewTouch
+    <ru.fegol.album2.ui.views.TouchImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/fs_image"/>

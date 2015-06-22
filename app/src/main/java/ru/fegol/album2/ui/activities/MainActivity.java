@@ -89,12 +89,12 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
         return new OnDetectScrollListener() {
             @Override
             public void onScrollUp() {
-                fab.show();
+                fab.hide();
             }
 
             @Override
             public void onScrollDown() {
-                fab.hide();
+                fab.show();
             }
         };
     }
