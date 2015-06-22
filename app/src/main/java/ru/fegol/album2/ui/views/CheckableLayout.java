@@ -8,7 +8,7 @@ import android.widget.FrameLayout;
 import ru.fegol.album2.R;
 
 /**
- * Created by Андрей on 21.06.2015.
+ * Created by РђРЅРґСЂРµР№ on 21.06.2015.
  */
 public class CheckableLayout extends FrameLayout implements Checkable {
 

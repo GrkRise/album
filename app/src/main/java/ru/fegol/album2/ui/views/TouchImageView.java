@@ -25,7 +25,7 @@ import android.widget.OverScroller;
 import android.widget.Scroller;
 
 /**
- * Created by Андрей on 22.06.2015.
+ * Created by РђРЅРґСЂРµР№ on 22.06.2015.
  */
 public class TouchImageView extends ImageView {
 

@@ -1,8 +1,10 @@
-package ru.fegol.album2.callbacks;
+package ru.fegol.album2.ui;
 
 import android.support.annotation.NonNull;
 import android.view.View;
 import android.widget.AbsListView;
+
+import ru.fegol.album2.callbacks.OnDetectScrollListener;
 
 /**
  * Created by Андрей on 21.06.2015.

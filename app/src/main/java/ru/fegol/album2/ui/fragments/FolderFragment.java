@@ -20,14 +20,13 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.GridView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.util.List;
 
 import greendao.Folder;
 import ru.fegol.album2.App;
 import ru.fegol.album2.R;
-import ru.fegol.album2.callbacks.DetectScroll;
+import ru.fegol.album2.ui.DetectScroll;
 import ru.fegol.album2.callbacks.OnFragmentInteractionListener;
 import ru.fegol.album2.core.Utils;
 import ru.fegol.album2.core.observer.Observable;

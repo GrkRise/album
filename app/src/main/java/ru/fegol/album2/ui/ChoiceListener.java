@@ -17,7 +17,7 @@ import ru.fegol.album2.R;
 import ru.fegol.album2.core.storage.Storage;
 
 /**
- * Created by Андрей on 21.06.2015.
+ * Created by РђРЅРґСЂРµР№ on 21.06.2015.
  */
 public class ChoiceListener implements AbsListView.MultiChoiceModeListener {
 

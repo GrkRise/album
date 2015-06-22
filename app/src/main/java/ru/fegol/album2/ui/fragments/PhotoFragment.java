@@ -13,7 +13,6 @@ import android.view.ViewGroup;
 import android.widget.AbsListView;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
-import android.widget.FrameLayout;
 import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -26,15 +25,13 @@ import java.util.List;
 import greendao.Photo;
 import ru.fegol.album2.App;
 import ru.fegol.album2.R;
-import ru.fegol.album2.callbacks.DetectScroll;
+import ru.fegol.album2.ui.DetectScroll;
 import ru.fegol.album2.callbacks.OnFragmentInteractionListener;
-import ru.fegol.album2.core.Utils;
 import ru.fegol.album2.core.observer.Observable;
 import ru.fegol.album2.core.observer.Observer;
 import ru.fegol.album2.core.storage.Storage;
 import ru.fegol.album2.ui.ChoiceListener;
 import ru.fegol.album2.ui.activities.FullScreenPhotoActivity;
-import ru.fegol.album2.ui.views.CheckableLayout;
 
 public class PhotoFragment extends Fragment implements Observer, AdapterView.OnItemClickListener {
 

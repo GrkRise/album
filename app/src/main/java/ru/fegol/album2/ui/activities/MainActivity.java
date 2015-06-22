@@ -20,7 +20,6 @@ import com.software.shell.fab.ActionButton;
 
 import ru.fegol.album2.App;
 import ru.fegol.album2.R;
-import ru.fegol.album2.callbacks.DetectScroll;
 import ru.fegol.album2.callbacks.OnDetectScrollListener;
 import ru.fegol.album2.callbacks.OnFragmentInteractionListener;
 import ru.fegol.album2.core.camera.CameraModule;

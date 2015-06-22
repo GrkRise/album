@@ -18,7 +18,6 @@ import android.widget.ImageView;
 import com.squareup.picasso.Picasso;
 
 import greendao.Photo;
-import it.sephiroth.android.library.imagezoom.ImageViewTouch;
 import ru.fegol.album2.App;
 import ru.fegol.album2.R;
 import ru.fegol.album2.callbacks.OnFragmentInteractionListener;
@@ -61,6 +60,18 @@ public class FullScreenPhotoFragment extends Fragment implements View.OnClickLis
 
         View view = inflater.inflate(R.layout.fragment_full_screen_photo, container, false);
         ImageView imageView = (ImageView)view.findViewById(R.id.fs_image);
+        imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ActionBar actionBar = ((AppCompatActivity)getActivity()).getSupportActionBar();
+                if(actionBar != null) {
+                    if (actionBar.isShowing())
+                        actionBar.hide();
+                    else
+                        actionBar.show();
+                }
+            }
+        });
         DisplayMetrics displayMetrics = new DisplayMetrics();
         getActivity().getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
         Picasso.with(getActivity())
