@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/ru/fegol/album2/callbacks/OnDetectScrollListener.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/ru/fegol/album2/core/Utils.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/ru/fegol/album2/core/observer/Observable.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/ru/fegol/album2/core/observer/Observer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/ru/fegol/album2/ui/ChoiceListener.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/ru/fegol/album2/ui/activities/FullScreenPhotoActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/ru/fegol/album2/ui/activities/MainActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/ru/fegol/album2/ui/fragments/FolderFragment.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/ru/fegol/album2/ui/fragments/FullScreenPhotoFragment.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/ru/fegol/album2/ui/fragments/PhotoFragment.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/ru/fegol/album2/ui/views/CheckableLayout.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/ru/fegol/album2/ui/views/SquareImageView.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/ru/fegol/album2/ui/views/TouchImageView.java" charset="UTF-8" />
+  </component>
+</project>
